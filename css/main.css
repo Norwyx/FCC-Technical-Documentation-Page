@@ -1,0 +1,42 @@
+:root {
+    --white-clr: #F5F5F5;
+    --black-clr: #141414;
+    --yellow-clr: #f0db4f;
+
+    --ff-primary: "Open Sans", Arial, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+margin: 0;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--ff-primary);
+    line-height: 1.6;
+    color: var(--black-clr);
+    background-color: var(--white-clr);
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#main-doc header {
+    text-align: left;
+}
