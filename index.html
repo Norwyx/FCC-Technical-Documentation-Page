@@ -14,21 +14,25 @@
 </head>
 
 <body>
-    <nav id="nav-bar">
+    <nav id="navbar">
+        <div id="img-div">
+            <img id="nav-logo" src="/images/js-logo.png" alt="Javascript Logo">
+        </div>
         <header id="title">JS Documentation</header>
         <ul>
             <li><a class="nav-link" href="#introduction">Introduction</a></li>
-            <li><a class="nav-link" href="#what-you-should-already-know">What you should already know</a></li>
+            <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
             <li><a class="nav-link" href="#variables">Variables</a></li>
             <li><a class="nav-link" href="#comments">Comments</a></li>
             <li><a class="nav-link" href="#operators">Operators</a></li>
             <li><a class="nav-link" href="#conditionals">Conditionals</a></li>
             <li><a class="nav-link" href="#functions">Functions</a></li>
+            <li><a class="nav-link" href="#reference">Reference</a></li>
         </ul>
     </nav>
 
-        <main id="main-doc">
-            <section id="introduction" class="main-section">
+    <main id="main-doc">
+        <section id="introduction" class="main-section">
                 <header>
                     Introduction
                 </header>
@@ -48,9 +52,9 @@
                         <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
                     </ul>
                 </div>
-            </section>
+        </section>
 
-            <section id="what-you-should-already-know" class="main-section">
+        <section id="what_you_should_already_know" class="main-section">
                 <header>
                     What you should already know
                 </header>
@@ -68,9 +72,9 @@
                         <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
                     </ul>
                 </div>
-            </section>
+        </section>
 
-            <section id="variables" class="main-section">
+        <section id="variables" class="main-section">
                 <header>
                     Variables
                 </header>
@@ -117,9 +121,9 @@
                         myVariable = 'Steve';   
                     </code>
                 </div>
-            </section>
+        </section>
 
-            <section id="comments" class="main-section">
+        <section id="comments" class="main-section">
                 <header>
                     Comments
                 </header>
@@ -143,9 +147,9 @@
                         // This is a comment
                     </code>
                 </div>
-            </section>
+        </section>
 
-            <section id="operators" class="main-section">
+        <section id="operators" class="main-section">
                 <header>
                     Operators
                 </header>
@@ -159,9 +163,9 @@
                         There are a lot more operators to explore, but this is enough for now. See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators" target="_blank">Expressions and operators</a> for a complete list.
                     </p>
                 </div>
-            </section>
+        </section>
 
-            <section id="conditionals" class="main-section">
+        <section id="conditionals" class="main-section">
                 <header>
                     Conditionals
                 </header>
@@ -184,9 +188,9 @@
                         The expression inside the <code>if( ... )</code> is the test. This uses the identity operator (as described above) to compare the variable <code>iceCream</code> with the string <code>chocolate</code> to see if the two are equal. If this comparison returns <code>true</code>, the first block of code runs. If the comparison is not true, the second block of code—after the <code>else</code> statement—runs instead.
                     </p>
                 </div>
-            </section>
+        </section>
 
-            <section id="functions" class="main-section">
+        <section id="functions" class="main-section">
                 <header>
                     Functions
                 </header>
@@ -207,7 +211,19 @@
                           }
                     </code>
                 </div>
-            </section>
-        </main>
+        </section>
+
+        <section id="reference" class="main-section">
+                <header>
+                    Reference
+                </header>
+
+                <div class="information">
+                    <p>
+                        All the information on this page was taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a>
+                    </p>
+                </div>
+        </section>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

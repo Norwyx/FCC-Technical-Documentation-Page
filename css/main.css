@@ -37,6 +37,76 @@ header {
     text-align: center;
 }
 
+/* Navbar */
+nav header {
+    padding-top: 0.3rem;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 1rem auto;
+}
+
+#nav-logo {
+    max-width: 150px;
+    max-height: 150px;
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 19rem;
+    height: 100%;
+    border-right: solid;
+    border-color: var(--black-clr);
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+#navbar li {
+    color: var(--black-clr);
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#navbar a {
+    display: block;
+    padding: 1.5rem 1rem;
+    color: var(--black-clr);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Main doc */
 #main-doc header {
     text-align: left;
+}
+
+#main-doc {
+    margin-left: 20.5rem;
+    padding: 2rem;
+    position: absolute;
+}
+
+code {
+    display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: var(--white-clr);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
 }
